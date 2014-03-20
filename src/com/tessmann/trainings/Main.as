@@ -31,7 +31,7 @@ package com.tessmann.trainings
 			
 			var s:Sprite = new Sprite();
 			s.graphics.clear();
-			s.graphics.beginFill(0xFF0000);
+			s.graphics.beginFill(0x0000FF);
 			s.graphics.drawRect(0, 0, 200, 200);
 			s.graphics.endFill();
 			
@@ -42,7 +42,7 @@ package com.tessmann.trainings
 			var t:TextField = new TextField();
 			t.width = 200;
 			t.height = 32;
-			t.text = "This is a master";
+			t.text = "This is a test1";
 			t.x = 100;
 			t.y = 68;
 			
